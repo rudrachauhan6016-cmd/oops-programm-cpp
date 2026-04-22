@@ -1,21 +1,10 @@
-//Write a porgram to store and display imformation of a student using class
+// 1. Write a program to add three numbers
 #include <iostream>
 using namespace std;
 
-class Student {
-    int roll;
-    string name;
-public:
-    void input() {
-        cin >> roll >> name;
-    }
-    void display() {
-        cout << "Roll: " << roll << "\nName: " << name;
-    }
-};
-
 int main() {
-    Student s;
-    s.input();
-    s.display();
+    int a, b, c;
+    cin >> a >> b >> c;
+    cout << a + b + c;
+    return 0;
 }
